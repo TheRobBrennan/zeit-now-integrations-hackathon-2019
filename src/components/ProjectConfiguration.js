@@ -1,6 +1,6 @@
 const { htm } = require('@zeit/integration-utils')
 const { supportedActions, appIdentifier } = require('../lib/constants')
-const log = require('../../../lib/log/log')
+const log = require('../lib/log/log')
 
 module.exports = ({
   action,

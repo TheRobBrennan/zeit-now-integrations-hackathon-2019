@@ -1,6 +1,6 @@
 const { appIdentifier, supportedActions } = require('../constants')
 const { htm } = require('@zeit/integration-utils')
-const log = require('../../../../lib/log/log')
+const log = require('../log/log')
 
 // Render functions
 const renderGAConfiguration = require('./lib/renderGAConfiguration')

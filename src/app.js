@@ -2,12 +2,12 @@ const { htm } = require('@zeit/integration-utils')
 
 // Useful functions and libraries
 const configuration = require('./lib/configuration/configuration')
-const log = require('../../lib/log/log')
+const log = require('./lib/log/log')
 const renderContent = require('./lib/render-content/renderContent')
 const {
   appIdentifier,
   supportedActions,
-} = require('../04-google-analytics/lib/constants')
+} = require('./lib/constants')
 
 module.exports = async ({ payload, zeitClient }) => {
   let metadata

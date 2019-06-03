@@ -1,4 +1,4 @@
-const { appIdentifier, supportedActions } = require('../../examples/04-google-analytics/lib/constants')
+const { appIdentifier, supportedActions } = require('../constants')
 const { htm } = require('@zeit/integration-utils')
 const log = require('../log/log')
 

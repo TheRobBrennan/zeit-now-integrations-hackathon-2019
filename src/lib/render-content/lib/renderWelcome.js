@@ -1,6 +1,6 @@
 const { htm } = require('@zeit/integration-utils')
 const { appIdentifier } = require('../../constants')
-const log = require('../../../../../lib/log/log')
+const log = require('../../log/log')
 const Welcome = require('../../../components/Welcome')
 
 module.exports = () => {

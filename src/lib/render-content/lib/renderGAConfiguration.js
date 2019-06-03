@@ -1,6 +1,6 @@
 const { htm } = require('@zeit/integration-utils')
 const { appIdentifier } = require('../../constants')
-const log = require('../../../../../lib/log/log')
+const log = require('../../log/log')
 
 const ProjectSelector = require('../../../components/ProjectSelector')
 const ProjectConfiguration = require('../../../components/ProjectConfiguration')

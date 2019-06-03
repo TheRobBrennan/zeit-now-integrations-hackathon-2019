@@ -1,4 +1,4 @@
-const appIdentifier = '[Example 04: Google Analytics]'
+const appIdentifier = '[ZEIT Now Integration]'
 const supportedActions = {
   "create-ga-secret": "create-ga-secret",
   view: "view",

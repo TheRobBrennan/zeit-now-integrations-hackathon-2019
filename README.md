@@ -2,7 +2,16 @@
 
 This project is the sample integration I created as part of the ZEIT Now Integrations Hackathon.
 
-It is a simple example. The user selects one of their ZEIT Now projects, and has the ability to specify a tracking ID for Google Analytics and generate a secret that can be used in their `now.json` files.
+It is a simple example. The user selects one of their ZEIT Now projects, and has the ability to specify a tracking ID for Google Analytics and generate a secret that can be used in their `now.json` files:
+
+![screens/demo.gif](screens/demo.gif)
+
+Screenshots
+
+![screens/01.png](screens/01.png)
+![screens/02.png](screens/02.png)
+![screens/03.png](screens/03.png)
+![screens/04.png](screens/04.png)
 
 ## Getting started
 

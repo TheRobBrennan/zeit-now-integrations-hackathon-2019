@@ -1,10 +1,14 @@
 # Welcome
 
+This project is the sample integration I created as part of the ZEIT Now Integrations Hackathon.
+
+It is a simple example. The user selects one of their ZEIT Now projects, and has the ability to specify a tracking ID for Google Analytics and generate a secret that can be used in their `now.json` files.
+
+## Getting started
+
 This project is based on the tutorial available at [https://zeit.co/docs/integrations#creating-an-integration](https://zeit.co/docs/integrations#creating-an-integration)
 
 **NOTE: According to the above [tutorial](https://zeit.co/docs/integrations#creating-an-integration), Safari has some issues when working with UIHooks running on `localhost`. Use a different web browser for local development.**
-
-## Getting started
 
 Once you have cloned this repo, you will want to do the following:
 
